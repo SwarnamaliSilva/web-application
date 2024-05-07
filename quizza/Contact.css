@@ -1,0 +1,137 @@
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family:Serif;
+    box-sizing: border-box;
+    align-items: center;
+    
+    transition: 0.3s;
+    background-attachment:scroll;
+    background: linear-gradient( #9b59b6, #66ccff, #fff, #66ccff,#9b59b6);
+    
+}   
+  
+.nav {
+    height: 9.1vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    float: right;
+    background-color: #000000;
+    
+  }
+
+  .nav img{
+    right:-38px;
+    top:10px;
+    float:left;
+    width: 85px;
+    height: 85px;
+    position: relative;
+    transition: 0.3s;
+  }
+
+  .nav a {
+    position:relative;
+    top:20px;
+    left: 500px;
+    color: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 22px 24px;
+    transition: 0.3s;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .nav a:hover {
+    background-color:#66ccff;
+    color: black;
+  }
+
+.contact{
+  margin-top: 8px;
+ }
+
+ .container{
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  align-items: center;
+  margin-top: 140px;
+}
+
+.qtitle {
+margin-left: 38px;
+font-size: 16px;
+margin-right: 10px;
+
+
+}
+
+.box{
+    
+  border: 2px solid #fff;
+  border-radius: 8px;
+  background-color: #fff;
+  height: 430px;
+  width: 550px;
+  align-items: center;
+  margin-left: 400px;
+  background-color: #cd8ef7;
+  margin-top: 28px;
+  
+}
+
+
+.box:hover {
+    background-color:#84d6ff;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .foot{
+    margin-right: 0;
+    padding-right: -10px;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    font-size: 16px;
+    
+  }
+
+  .foot .logofoot{
+    margin-right: 300px;
+  }
+
+  .th{
+    text-align: left;
+  }
+
+  .bepos{
+    text-align: left;
+    
+  }
